@@ -21,7 +21,7 @@ memcached -d -p 11211 -u memcached -m 2048 -c 1024 -P /var/run/memcached/memcach
   
 ## MemcacheD arguments
 
-(protocol)[https://github.com/memcached/memcached/blob/master/doc/protocol.txt]
+[protocol](https://github.com/memcached/memcached/blob/master/doc/protocol.txt)
 
 ## How can check the keys
 stats cachedump 1 10
