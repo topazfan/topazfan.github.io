@@ -5,11 +5,13 @@
 ## dynamic
 
 When Elasticsearch detects a new field in a document, it dynamically adds the field to the type mapping by default. The dynamic parameter controls this behavior.
+
 [dynamic-field-mapping](https://www.elastic.co/guide/en/elasticsearch/reference/master/dynamic-field-mapping.html)
 
 ## type
 
 Each field has a field data type, or field type. This type indicates the kind of data the field contains, such as strings or boolean values, and its intended use. For example, you can index strings to both text and keyword fields. However, text field values are analyzed for full-text search while keyword strings are left as-is for filtering and sorting.
+
 [mapping-types](https://www.elastic.co/guide/en/elasticsearch/reference/master/mapping-types.html)
 
 ## analyzer
