@@ -2,6 +2,8 @@
 
 ## _mappings
 
+[es mapping doc](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html)
+
 ```
 curl -XGET "http://localhost:9200/testsdev/file/_mapping?pretty" -H "Content-Type: application/json; charset=utf-8"
 
