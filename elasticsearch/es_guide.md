@@ -75,3 +75,7 @@ curl -XPOST "http://localhost:9200/testsdev/file/_search?pretty" -H "Content-Typ
 Delete data in index 'testsdev'
 curl -XPOST "http://localhost:9200/testsdev/_delete_by_query" -H "Content-Type: application/json; charset=utf-8" --data-binary '@C:\tests\tests_delete_by_search.json'
 ```
+
+
+## _update_by_query
+[docs-update-by-query](https://www.elastic.co/guide/en/elasticsearch/reference/master/docs-update-by-query.html)
